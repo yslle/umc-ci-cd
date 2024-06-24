@@ -36,3 +36,8 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+// Docker 쓰면 필요x
+jar {
+	enabled = false
+}
